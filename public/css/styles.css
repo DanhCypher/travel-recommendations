@@ -1,0 +1,106 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #0078d7;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page header styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #0078d7;
+}
+
+/* Form styles */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #0056a0;
+}
+
+/* Image gallery styles */
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* About page image styles */
+.about-image {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Contact page image styles */
+.contact-image {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
